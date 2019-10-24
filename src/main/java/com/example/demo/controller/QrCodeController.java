@@ -14,7 +14,7 @@ public class QrCodeController {
 
 
     /**
-     * 根据 url 生成 普通二维码
+     * 根据 url 生成   普通二维码
      */
     @RequestMapping(value = "/createCommonQRCode")
     public void createCommonQRCode(HttpServletResponse response, String url) throws Exception {
